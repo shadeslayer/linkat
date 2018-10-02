@@ -10,4 +10,4 @@ lb config \
 test -d customization && cp -rf customization/* config/
 
 wget http://download-linkat.xtec.cat/distribution/linkat-edu-18.04/linkat-repo-18.04.list -P config/archives/
-wget http://download-linkat.xtec.cat/distribution/linkat-edu-18.04/pubkey-linkat.gpg -O config/archives/linkat-repo-18.04.list.key
+wget http://download-linkat.xtec.cat/distribution/linkat-edu-18.04/pubkey-linkat.gpg -O config/archives/linkat-repo-18.04.key
