@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+lb config \
+    --archive-areas "main universe multiverse" \
+    --distribution bionic \
+    --binary-images iso-hybrid \
+    --mode ubuntu \
+    --iso-volume "Neon Linkat"
+
+test -d customization && cp -rf customization/* config/
