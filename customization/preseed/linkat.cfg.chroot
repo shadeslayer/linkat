@@ -1,0 +1,4 @@
+gdm3	shared/default-x-display-manager	select	lightdm
+lightdm	shared/default-x-display-manager	select	lightdm
+ttf-mscorefonts-installer	msttcorefonts/present-mscorefonts-eula	note
+ttf-mscorefonts-installer	msttcorefonts/accepted-mscorefonts-eula	boolean	true
