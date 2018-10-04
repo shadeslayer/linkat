@@ -1,2 +1,2 @@
-deb http://archive.neon.kde.org/dev/stable @DISTRIBUTION@ main
-#deb-src http://archive.neon.kde.org/dev/stable @DISTRIBUTION@ main
+deb http://archive.neon.kde.org/dev/unstable @DISTRIBUTION@ main
+#deb-src http://archive.neon.kde.org/dev/unstable @DISTRIBUTION@ main
