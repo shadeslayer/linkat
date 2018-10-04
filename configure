@@ -8,6 +8,7 @@ lb config \
     --distribution bionic \
     --binary-images iso-hybrid \
     --mode ubuntu \
+    --build-with-chroot false \
     --iso-volume "Neon Linkat"
 
 test -d customization && cp -rf customization/* config/
